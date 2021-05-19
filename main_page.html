@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel = "stylesheet" type = "css/text" href = "main_page.css">
+</head>
+<style>
+   body{
+    text-align: center;
+    color:cadetblue;
+    background-color: aquamarine;
+    
+}
+</style>
+<body id = "Body_background">
+   <h1 id = "Home" class = "header">Home</h1> 
+   <h2  id = "Welcome"class = "header">Welcome</h2>
+   <div class = "form-group Celsius_div">
+   <label  id ="Weather">Weather in Celsius: </label>
+   <input class = "form-group" type = "text" id = "Celsius" placeholder="Enter Celsius">
+</div>
+<br>
+<br>
+
+   <button onclick="calculate()" id = "Calculate_btn" class= "btn btn-primary">Calculate to Fahrenheit</button>
+   <br>
+   <br>
+   <label  id = "AnswerTextID">Answer: </label>
+   <label  id = "LabelAnswer"></label>
+
+</div>
+   
+</body>
+<script src = "main_page.js"></script>
+</html>
